@@ -64,7 +64,7 @@ proguard/
 captures/
 
 # IntelliJ
-.idea/codeStyles
+codeStyles/
 *.iml
 .idea/workspace.xml
 .idea/tasks.xml
