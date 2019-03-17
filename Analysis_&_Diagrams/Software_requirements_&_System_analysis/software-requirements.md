@@ -19,4 +19,4 @@
 
 ## Use case diagram
 
-![Use Case Diagram]((Scope_and_definition/use-case-diagram.png "Περιπτώσεις Χρήσης")
+![Use Case Diagram](../Scope_and_definition/use-case-diagram.png "Περιπτώσεις Χρήσης")
