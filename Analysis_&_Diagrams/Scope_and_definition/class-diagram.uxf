@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>8</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>104</x>
-      <y>232</y>
-      <w>208</w>
-      <h>80</h>
+      <x>190</x>
+      <y>170</y>
+      <w>260</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>Προϊόν
 --
@@ -20,10 +20,10 @@ id: int
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>456</x>
-      <y>232</y>
-      <w>152</w>
-      <h>80</h>
+      <x>630</x>
+      <y>170</y>
+      <w>190</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>Λίστα
 --
@@ -36,10 +36,10 @@ id: int
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>472</x>
-      <y>424</y>
-      <w>128</w>
-      <h>72</h>
+      <x>650</x>
+      <y>410</y>
+      <w>160</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Κατάστημα
 --
@@ -52,10 +52,10 @@ id: int
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>592</y>
-      <w>128</w>
-      <h>80</h>
+      <x>560</x>
+      <y>620</y>
+      <w>160</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>ΩράριοΚαταστήματος
 --
@@ -68,10 +68,10 @@ id: int
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>144</x>
-      <y>576</y>
-      <w>120</w>
-      <h>56</h>
+      <x>240</x>
+      <y>600</y>
+      <w>150</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>ΜέθοδοςΠληρωμής
 --
@@ -82,10 +82,10 @@ id: int
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>64</x>
-      <y>680</y>
-      <w>88</w>
-      <h>32</h>
+      <x>140</x>
+      <y>730</y>
+      <w>110</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>Πορτοφόλι
 --</panel_attributes>
@@ -94,10 +94,10 @@ id: int
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>216</x>
-      <y>680</y>
-      <w>136</w>
-      <h>64</h>
+      <x>330</x>
+      <y>730</y>
+      <w>170</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Κάρτα
 --
@@ -109,10 +109,10 @@ id: int
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>104</x>
-      <y>624</y>
-      <w>96</w>
-      <h>72</h>
+      <x>190</x>
+      <y>660</y>
+      <w>120</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>100.0;10.0;10.0;70.0</additional_attributes>
@@ -120,10 +120,10 @@ id: int
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>208</x>
-      <y>624</y>
-      <w>88</w>
-      <h>72</h>
+      <x>320</x>
+      <y>660</y>
+      <w>110</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;90.0;70.0</additional_attributes>
@@ -131,10 +131,10 @@ id: int
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>136</x>
-      <y>424</y>
-      <w>128</w>
-      <h>64</h>
+      <x>230</x>
+      <y>410</y>
+      <w>160</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Επίσκεψη
 --
@@ -146,10 +146,10 @@ id: int
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>304</x>
-      <y>256</y>
-      <w>168</w>
-      <h>40</h>
+      <x>440</x>
+      <y>200</y>
+      <w>210</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=*
@@ -160,10 +160,10 @@ m2=*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>376</x>
-      <y>192</y>
-      <w>24</w>
-      <h>96</h>
+      <x>530</x>
+      <y>120</y>
+      <w>30</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=.
 </panel_attributes>
@@ -172,10 +172,10 @@ m2=*
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>328</x>
-      <y>160</y>
-      <w>112</w>
-      <h>40</h>
+      <x>470</x>
+      <y>80</y>
+      <w>140</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>ΑντικείμενοΛίστας
 --
@@ -185,10 +185,10 @@ m2=*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>192</x>
-      <y>304</y>
-      <w>88</w>
-      <h>136</h>
+      <x>300</x>
+      <y>260</y>
+      <w>110</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1..*
@@ -199,10 +199,10 @@ m2=*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>128</x>
-      <y>360</y>
-      <w>88</w>
-      <h>32</h>
+      <x>220</x>
+      <y>330</y>
+      <w>110</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=.
 </panel_attributes>
@@ -211,10 +211,10 @@ m2=*
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>344</y>
-      <w>136</w>
-      <h>56</h>
+      <x>60</x>
+      <y>310</y>
+      <w>170</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>ΑντικείμενοΑγοράς
 --
@@ -225,10 +225,10 @@ m2=*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>192</x>
+      <x>300</x>
       <y>480</y>
-      <w>104</w>
-      <h>112</h>
+      <w>130</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=*
@@ -239,10 +239,10 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>256</x>
-      <y>440</y>
-      <w>232</w>
-      <h>40</h>
+      <x>380</x>
+      <y>430</y>
+      <w>290</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=*
@@ -253,10 +253,10 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>256</x>
-      <y>304</y>
-      <w>216</w>
-      <h>136</h>
+      <x>380</x>
+      <y>260</y>
+      <w>270</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=*
@@ -267,10 +267,10 @@ m2=*
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>568</x>
-      <y>592</y>
-      <w>128</w>
-      <h>72</h>
+      <x>770</x>
+      <y>620</y>
+      <w>160</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Διεύθυνση
 --
@@ -283,10 +283,10 @@ m2=*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>544</x>
-      <y>488</y>
-      <w>96</w>
-      <h>120</h>
+      <x>740</x>
+      <y>490</y>
+      <w>120</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m2=1</panel_attributes>
@@ -295,10 +295,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>456</x>
-      <y>488</y>
-      <w>72</w>
-      <h>120</h>
+      <x>630</x>
+      <y>490</y>
+      <w>90</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m2=1..7</panel_attributes>
@@ -307,10 +307,10 @@ m2=1..7</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>672</x>
-      <y>224</y>
-      <w>136</w>
-      <h>128</h>
+      <x>900</x>
+      <y>160</y>
+      <w>170</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enumeration&gt;&gt;
 ΥποκατηγορίαΠροϊόντος
@@ -327,10 +327,10 @@ m2=1..7</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>672</x>
-      <y>368</y>
-      <w>136</w>
-      <h>64</h>
+      <x>900</x>
+      <y>340</y>
+      <w>170</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enumeration&gt;&gt;
 ΤύποςΚάρτας
@@ -342,10 +342,10 @@ m2=1..7</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>672</x>
-      <y>112</y>
-      <w>136</w>
-      <h>104</h>
+      <x>900</x>
+      <y>20</y>
+      <w>170</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enumeration&gt;&gt;
 ΚατηγορίαΠροϊόντος
@@ -360,10 +360,10 @@ m2=1..7</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>824</x>
-      <y>112</y>
-      <w>104</w>
-      <h>48</h>
+      <x>1090</x>
+      <y>20</y>
+      <w>130</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Quantity
 --
@@ -374,10 +374,10 @@ unit: Unit</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>824</x>
-      <y>304</y>
-      <w>104</w>
-      <h>128</h>
+      <x>1090</x>
+      <y>260</y>
+      <w>130</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enumaration&gt;&gt;
 Day
@@ -394,10 +394,10 @@ Day
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>824</x>
-      <y>184</y>
-      <w>104</w>
-      <h>104</h>
+      <x>1090</x>
+      <y>110</y>
+      <w>130</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enumaration&gt;&gt;
 Unit
