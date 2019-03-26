@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>232</y>
+      <w>208</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Προϊόν
+--
+id: int
+όνομα: String
+κατηγορία: ΚατηγορίαΠροϊόντος
+υποκατηγορία: ΥποκατηγορίαΠροϊόντος</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>456</x>
+      <y>232</y>
+      <w>152</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Λίστα
+--
+id: int
+όνομα: String
+ημΔημιουργίας: Date
+/ενεργή : boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>472</x>
+      <y>424</y>
+      <w>128</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Κατάστημα
+--
+id: int
+όνομα: String
+/ανοιχτό : boolean
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>592</y>
+      <w>128</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ΩράριοΚαταστήματος
+--
+ώραΑνοίγματος: int
+ώραΚλεισίματος: int
+απόΗμέρα: Day
+μέχριΗμέρα: Day</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>144</x>
+      <y>576</y>
+      <w>120</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>ΜέθοδοςΠληρωμής
+--
+υπόλοιπο: Double
+/ενεργή: boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>64</x>
+      <y>680</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Πορτοφόλι
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>216</x>
+      <y>680</y>
+      <w>136</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Κάρτα
+--
+αριθμόςΚάρτας: String
+λήξη: Date
+τύπος: ΤύποςΚάρτας</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>104</x>
+      <y>624</y>
+      <w>96</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>208</x>
+      <y>624</y>
+      <w>88</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>136</x>
+      <y>424</y>
+      <w>128</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Επίσκεψη
+--
+id: int
+ημΕπίσκεψης: Date
+/σύνολο : Money</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>304</x>
+      <y>256</y>
+      <w>168</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=*
+συμμετέχει &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>376</x>
+      <y>192</y>
+      <w>24</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>328</x>
+      <y>160</y>
+      <w>112</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>ΑντικείμενοΛίστας
+--
+ποσότητα: Quantity</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>192</x>
+      <y>304</y>
+      <w>88</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=*
+αγοράζεται v</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>128</x>
+      <y>360</y>
+      <w>88</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>344</y>
+      <w>136</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>ΑντικείμενοΑγοράς
+--
+ποσότητα: Quantity
+συνολικήΑξία: Money</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>192</x>
+      <y>480</y>
+      <w>104</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=1
+χρησιμοποιεί v</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>256</x>
+      <y>440</y>
+      <w>232</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=1
+αφορά &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;270.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>256</x>
+      <y>304</y>
+      <w>216</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=*
+επηρεάζει &gt;</panel_attributes>
+    <additional_attributes>10.0;150.0;250.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>568</x>
+      <y>592</y>
+      <w>128</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Διεύθυνση
+--
+οδός: String
+αριθμός: String
+περιοχή: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>544</x>
+      <y>488</y>
+      <w>96</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>456</x>
+      <y>488</y>
+      <w>72</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..7</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>224</y>
+      <w>136</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+ΥποκατηγορίαΠροϊόντος
+--
+ΑΛΛΑΝΤΙΚΑ
+ΓΑΛΑΚΤΟΚΟΜΙΚΑ
+ΖΥΜΑΡΙΚΑ
+ΑΝΑΨΥΚΤΙΚΑ
+ΑΛΚΟΟΛΟΥΧΑ ΠΟΤΑ
+ΠΡΟΪΟΝΤΑ ΜΠΑΝΙΟΥ
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>368</y>
+      <w>136</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+ΤύποςΚάρτας
+--
+ΠΙΣΤΩΤΙΚΗ
+ΑΝΑΛΗΨΗΣ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>112</y>
+      <w>136</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+ΚατηγορίαΠροϊόντος
+--
+ΦΑΓΗΤΟ
+ΠΟΤΟ
+ΕΙΔΗ ΥΓΙΕΙΝΗΣ
+ΑΛΛΟ
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>824</x>
+      <y>112</y>
+      <w>104</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Quantity
+--
+ποσό: BigDecimal
+unit: Unit</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>824</x>
+      <y>304</y>
+      <w>104</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumaration&gt;&gt;
+Day
+--
+ΔΕΥ
+ΤΡΙ
+ΤΕΤ
+ΠΕΜ
+ΠΑΡ
+ΣΑΒ
+ΚΥΡ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>824</x>
+      <y>184</y>
+      <w>104</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumaration&gt;&gt;
+Unit
+--
+Kg
+gr.
+ml
+L
+ΤΕΜΑΧΙΑ</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
