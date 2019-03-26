@@ -1,4 +1,5 @@
 # seneschal
+#### ~ a budget-minded shooping list ~
 
 *Seneschal* is all about managing your groceries or any other shopping list while staying on budget, keep track of your expenses and receive useful insights on the market. It combines a handy minimalistic shopping list, a calculator, money managεment and statistical features.
 
