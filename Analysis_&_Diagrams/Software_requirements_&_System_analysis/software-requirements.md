@@ -61,3 +61,9 @@
 
 ## Μοντέλο πεδίου
 ![Domain model](../Scope_and_definition/class-diagram.png "Μοντέλο πεδίου / Διάγραμμα κλάσεων")
+
+
+## Ελεγχοι JUnit
+![JUnit-Domain](./Statistics/JUnit-DomainResults.png "Αποτελέσματα JUnit στο domain")
+
+![JUnit-SourceCode](./Statistics/JUnit-SourceCodeResults.png "Αποτελέσματα για όλες τις κλάσεις του χαμηλότερου επιπέδου")
