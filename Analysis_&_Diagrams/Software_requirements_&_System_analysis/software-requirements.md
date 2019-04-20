@@ -62,6 +62,9 @@
 ## Μοντέλο πεδίου
 ![Domain model](../Scope_and_definition/class-diagram.png "Μοντέλο πεδίου / Διάγραμμα κλάσεων")
 
+## Διάγραμμα πακέτων - Αρχιτεκτονική
+![Package diagram](../Scope_and_definition/package-diagram.png "Διάγραμμα πακέτων")
+
 
 ## Ελεγχοι JUnit
 ![JUnit-Domain](./Statistics/JUnit-DomainResults.png "Αποτελέσματα JUnit στο domain")
