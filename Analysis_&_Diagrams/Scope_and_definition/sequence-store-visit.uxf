@@ -4,7 +4,7 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>343</x>
+      <x>280</x>
       <y>0</y>
       <w>42</w>
       <h>77</h>
@@ -15,7 +15,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>357</x>
+      <x>294</x>
       <y>42</y>
       <w>21</w>
       <h>966</h>
@@ -26,7 +26,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>448</x>
+      <x>385</x>
       <y>42</y>
       <w>21</w>
       <h>959</h>
@@ -37,7 +37,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>406</x>
+      <x>343</x>
       <y>7</y>
       <w>98</w>
       <h>42</h>
@@ -49,7 +49,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>532</x>
+      <x>469</x>
       <y>7</y>
       <w>98</w>
       <h>42</h>
@@ -61,7 +61,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>574</x>
+      <x>511</x>
       <y>42</y>
       <w>21</w>
       <h>952</h>
@@ -72,7 +72,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>952</x>
+      <x>889</x>
       <y>42</y>
       <w>98</w>
       <h>42</h>
@@ -84,7 +84,7 @@ newVisit:Visit</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>994</x>
+      <x>931</x>
       <y>77</y>
       <w>21</w>
       <h>910</h>
@@ -95,7 +95,7 @@ newVisit:Visit</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>357</x>
+      <x>294</x>
       <y>56</y>
       <w>105</w>
       <h>28</h>
@@ -107,7 +107,7 @@ startVisit</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>448</x>
+      <x>385</x>
       <y>70</y>
       <w>14</w>
       <h>28</h>
@@ -120,7 +120,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
+      <x>392</x>
       <y>63</y>
       <w>133</w>
       <h>28</h>
@@ -132,7 +132,7 @@ createVisit()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>574</x>
+      <x>511</x>
       <y>77</y>
       <w>14</w>
       <h>28</h>
@@ -145,7 +145,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>63</y>
       <w>385</w>
       <h>28</h>
@@ -157,7 +157,7 @@ create</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>357</x>
+      <x>294</x>
       <y>105</y>
       <w>105</w>
       <h>28</h>
@@ -169,7 +169,7 @@ readStore</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>357</x>
+      <x>294</x>
       <y>154</y>
       <w>105</w>
       <h>35</h>
@@ -182,7 +182,7 @@ readPMethod
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>448</x>
+      <x>385</x>
       <y>119</y>
       <w>14</w>
       <h>28</h>
@@ -195,7 +195,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
+      <x>392</x>
       <y>112</y>
       <w>133</w>
       <h>28</h>
@@ -207,7 +207,7 @@ setVisitStore(store)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>574</x>
+      <x>511</x>
       <y>126</y>
       <w>14</w>
       <h>21</h>
@@ -220,7 +220,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>119</y>
       <w>427</w>
       <h>28</h>
@@ -232,7 +232,7 @@ setStore(store)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>994</x>
+      <x>931</x>
       <y>133</y>
       <w>14</w>
       <h>14</h>
@@ -245,7 +245,7 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>448</x>
+      <x>385</x>
       <y>168</y>
       <w>14</w>
       <h>28</h>
@@ -258,7 +258,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
+      <x>392</x>
       <y>161</y>
       <w>133</w>
       <h>35</h>
@@ -271,7 +271,7 @@ setPMethod
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>574</x>
+      <x>511</x>
       <y>175</y>
       <w>14</w>
       <h>21</h>
@@ -284,19 +284,19 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>168</y>
       <w>427</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-setPMethod(paymentMethod)</panel_attributes>
+setPayMethod(paymentMethod)</panel_attributes>
     <additional_attributes>590.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>994</x>
+      <x>931</x>
       <y>182</y>
       <w>14</w>
       <h>14</h>
@@ -309,7 +309,7 @@ bg=black</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>336</x>
+      <x>273</x>
       <y>203</y>
       <w>980</w>
       <h>77</h>
@@ -320,7 +320,7 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>364</x>
+      <x>301</x>
       <y>203</y>
       <w>63</w>
       <h>21</h>
@@ -331,7 +331,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>357</x>
+      <x>294</x>
       <y>224</y>
       <w>105</w>
       <h>28</h>
@@ -343,7 +343,7 @@ readList</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>448</x>
+      <x>385</x>
       <y>238</y>
       <w>14</w>
       <h>105</h>
@@ -356,7 +356,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
+      <x>392</x>
       <y>238</y>
       <w>133</w>
       <h>28</h>
@@ -368,7 +368,7 @@ addVisitList(list)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>574</x>
+      <x>511</x>
       <y>252</y>
       <w>14</w>
       <h>21</h>
@@ -381,7 +381,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>245</y>
       <w>427</w>
       <h>28</h>
@@ -393,7 +393,7 @@ addList(list)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>994</x>
+      <x>931</x>
       <y>259</y>
       <w>14</w>
       <h>14</h>
@@ -406,7 +406,7 @@ bg=black</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>294</x>
+      <x>231</x>
       <y>826</y>
       <w>1022</w>
       <h>84</h>
@@ -417,7 +417,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>301</y>
       <w>294</w>
       <h>28</h>
@@ -429,7 +429,7 @@ getProduct()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>322</y>
       <w>294</w>
       <h>28</h>
@@ -441,7 +441,7 @@ product</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>861</x>
+      <x>798</x>
       <y>315</y>
       <w>14</w>
       <h>21</h>
@@ -454,7 +454,7 @@ bg=black</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>364</x>
+      <x>301</x>
       <y>294</y>
       <w>84</w>
       <h>21</h>
@@ -465,7 +465,7 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>574</x>
+      <x>511</x>
       <y>315</y>
       <w>14</w>
       <h>28</h>
@@ -478,7 +478,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>861</x>
+      <x>798</x>
       <y>42</y>
       <w>21</w>
       <h>945</h>
@@ -489,7 +489,7 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>819</x>
+      <x>756</x>
       <y>7</y>
       <w>98</w>
       <h>42</h>
@@ -501,19 +501,19 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>658</x>
+      <x>595</x>
       <y>483</y>
-      <w>91</w>
+      <w>126</w>
       <h>49</h>
     </coordinates>
     <panel_attributes>
-listItem:BoughtItem</panel_attributes>
+boughtItem:BoughtProduct</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>357</x>
+      <x>294</x>
       <y>385</y>
       <w>105</w>
       <h>28</h>
@@ -525,7 +525,7 @@ selectProduct</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>448</x>
+      <x>385</x>
       <y>399</y>
       <w>14</w>
       <h>28</h>
@@ -538,7 +538,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
+      <x>392</x>
       <y>392</y>
       <w>133</w>
       <h>28</h>
@@ -550,7 +550,7 @@ setProduct(product)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>574</x>
+      <x>511</x>
       <y>406</y>
       <w>14</w>
       <h>21</h>
@@ -563,7 +563,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>357</x>
+      <x>294</x>
       <y>427</y>
       <w>105</w>
       <h>28</h>
@@ -575,7 +575,7 @@ readQuantity</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>448</x>
+      <x>385</x>
       <y>441</y>
       <w>14</w>
       <h>28</h>
@@ -588,7 +588,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
+      <x>392</x>
       <y>441</y>
       <w>133</w>
       <h>28</h>
@@ -600,7 +600,7 @@ setQuantity(quantity)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>574</x>
+      <x>511</x>
       <y>504</y>
       <w>14</w>
       <h>469</h>
@@ -613,7 +613,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>497</y>
       <w>91</w>
       <h>28</h>
@@ -625,7 +625,7 @@ create</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>532</y>
       <w>126</w>
       <h>28</h>
@@ -637,7 +637,7 @@ setProduct(product)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>560</y>
       <w>126</w>
       <h>28</h>
@@ -649,7 +649,7 @@ setQuantity(quantity)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>693</x>
+      <x>630</x>
       <y>546</y>
       <w>14</w>
       <h>14</h>
@@ -662,7 +662,7 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>693</x>
+      <x>630</x>
       <y>574</y>
       <w>14</w>
       <h>14</h>
@@ -675,22 +675,22 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>609</y>
       <w>427</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-insertItem(listItem)</panel_attributes>
+addProduct(boughtItem)</panel_attributes>
     <additional_attributes>590.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>994</x>
+      <x>931</x>
       <y>623</y>
       <w>14</w>
-      <h>14</h>
+      <h>98</h>
     </coordinates>
     <panel_attributes>
 fg=black
@@ -700,7 +700,7 @@ bg=black</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>336</x>
+      <x>273</x>
       <y>364</y>
       <w>980</w>
       <h>371</h>
@@ -711,7 +711,7 @@ bg=black</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>364</x>
+      <x>301</x>
       <y>364</y>
       <w>98</w>
       <h>21</h>
@@ -724,7 +724,7 @@ fg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>693</x>
+      <x>630</x>
       <y>525</y>
       <w>21</w>
       <h>469</h>
@@ -735,7 +735,7 @@ fg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>574</x>
+      <x>511</x>
       <y>455</y>
       <w>14</w>
       <h>21</h>
@@ -748,7 +748,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>357</x>
+      <x>294</x>
       <y>483</y>
       <w>105</w>
       <h>28</h>
@@ -760,7 +760,7 @@ readPrice</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>448</x>
+      <x>385</x>
       <y>497</y>
       <w>14</w>
       <h>476</h>
@@ -773,7 +773,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
+      <x>392</x>
       <y>490</y>
       <w>133</w>
       <h>28</h>
@@ -785,7 +785,7 @@ setPrice(money)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>588</y>
       <w>126</w>
       <h>28</h>
@@ -797,7 +797,7 @@ setPrice(money)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>693</x>
+      <x>630</x>
       <y>602</y>
       <w>14</w>
       <h>14</h>
@@ -810,57 +810,19 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
-      <y>630</y>
-      <w>427</w>
-      <h>28</h>
+      <x>938</x>
+      <y>623</y>
+      <w>126</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 addToTotal(money)</panel_attributes>
-    <additional_attributes>590.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>994</x>
-      <y>644</y>
-      <w>14</w>
-      <h>14</h>
-    </coordinates>
-    <panel_attributes>
-fg=black
-bg=black</panel_attributes>
-    <additional_attributes/>
+    <additional_attributes>20.0;30.0;40.0;30.0;40.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
-      <y>658</y>
-      <w>427</w>
-      <h>28</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-getTotal()</panel_attributes>
-    <additional_attributes>590.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>994</x>
-      <y>672</y>
-      <w>14</w>
-      <h>14</h>
-    </coordinates>
-    <panel_attributes>
-fg=black
-bg=black</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>84</y>
       <w>427</w>
       <h>28</h>
@@ -872,7 +834,7 @@ setTotal(0)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>994</x>
+      <x>931</x>
       <y>98</y>
       <w>14</w>
       <h>14</h>
@@ -883,21 +845,9 @@ bg=black</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>581</x>
-      <y>672</y>
-      <w>427</w>
-      <h>28</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;.
-expenses</panel_attributes>
-    <additional_attributes>10.0;20.0;590.0;20.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1057</x>
+      <x>994</x>
       <y>0</y>
       <w>98</w>
       <h>42</h>
@@ -910,7 +860,7 @@ PaymentMethod</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1099</x>
+      <x>1036</x>
       <y>35</y>
       <w>21</w>
       <h>952</h>
@@ -921,33 +871,8 @@ PaymentMethod</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
-      <y>700</y>
-      <w>532</w>
-      <h>28</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-checkBalance(expenses)</panel_attributes>
-    <additional_attributes>740.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>1099</x>
-      <y>714</y>
-      <w>14</w>
-      <h>14</h>
-    </coordinates>
-    <panel_attributes>
-fg=black
-bg=black</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>581</x>
-      <y>742</y>
+      <x>518</x>
+      <y>728</y>
       <w>427</w>
       <h>28</h>
     </coordinates>
@@ -958,10 +883,10 @@ getTotal()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>994</x>
-      <y>756</y>
+      <x>931</x>
+      <y>742</y>
       <w>14</w>
-      <h>21</h>
+      <h>14</h>
     </coordinates>
     <panel_attributes>
 fg=black
@@ -971,8 +896,8 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
-      <y>763</y>
+      <x>518</x>
+      <y>742</y>
       <w>427</w>
       <h>28</h>
     </coordinates>
@@ -983,20 +908,20 @@ expenses</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
-      <y>791</y>
+      <x>518</x>
+      <y>763</y>
       <w>532</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-removeFromBalance(expenses)</panel_attributes>
+makePayment(expenses)</panel_attributes>
     <additional_attributes>740.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1099</x>
-      <y>805</y>
+      <x>1036</x>
+      <y>777</y>
       <w>14</w>
       <h>14</h>
     </coordinates>
@@ -1008,7 +933,7 @@ bg=black</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>336</x>
+      <x>273</x>
       <y>287</y>
       <w>980</w>
       <h>63</h>
@@ -1019,7 +944,7 @@ bg=black</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>322</x>
+      <x>259</x>
       <y>847</y>
       <w>966</w>
       <h>49</h>
@@ -1030,19 +955,19 @@ bg=black</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1169</x>
+      <x>1106</x>
       <y>0</y>
       <w>98</w>
       <h>42</h>
     </coordinates>
     <panel_attributes>
-:List</panel_attributes>
+:ShoppingList</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>329</x>
+      <x>266</x>
       <y>826</y>
       <w>98</w>
       <h>21</h>
@@ -1055,13 +980,13 @@ fg=black</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>350</x>
+      <x>287</x>
       <y>847</y>
       <w>98</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>[for each valid
-selected list]
+visitList]
 bg=none
 fg=black</panel_attributes>
     <additional_attributes/>
@@ -1069,19 +994,19 @@ fg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>861</y>
       <w>644</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-removeBoughtQuantities(boughtItem)</panel_attributes>
+removeBoughtQuantities(BoughtItem)</panel_attributes>
     <additional_attributes>900.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1211</x>
+      <x>1148</x>
       <y>35</y>
       <w>21</w>
       <h>952</h>
@@ -1092,7 +1017,7 @@ removeBoughtQuantities(boughtItem)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1211</x>
+      <x>1148</x>
       <y>875</y>
       <w>14</w>
       <h>14</h>
@@ -1105,7 +1030,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>917</y>
       <w>427</w>
       <h>28</h>
@@ -1117,7 +1042,7 @@ setId(newID)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>994</x>
+      <x>931</x>
       <y>931</y>
       <w>14</w>
       <h>14</h>
@@ -1130,7 +1055,7 @@ bg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
+      <x>518</x>
       <y>945</y>
       <w>427</w>
       <h>28</h>
@@ -1142,7 +1067,7 @@ save</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>994</x>
+      <x>931</x>
       <y>959</y>
       <w>14</w>
       <h>14</h>
@@ -1151,5 +1076,92 @@ save</panel_attributes>
 fg=black
 bg=black</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>938</x>
+      <y>637</y>
+      <w>14</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>
+fg=black
+bg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>938</x>
+      <y>686</y>
+      <w>14</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>
+fg=black
+bg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>938</x>
+      <y>665</y>
+      <w>161</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+warning = closeToBudget()</panel_attributes>
+    <additional_attributes>20.0;40.0;40.0;40.0;40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>518</x>
+      <y>700</y>
+      <w>427</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;.
+warning</panel_attributes>
+    <additional_attributes>10.0;20.0;590.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>518</x>
+      <y>784</y>
+      <w>532</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+getVisitLists</panel_attributes>
+    <additional_attributes>740.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1036</x>
+      <y>798</y>
+      <w>14</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>
+fg=black
+bg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>518</x>
+      <y>798</y>
+      <w>532</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;.
+visitLists</panel_attributes>
+    <additional_attributes>10.0;20.0;740.0;20.0</additional_attributes>
   </element>
 </diagram>
