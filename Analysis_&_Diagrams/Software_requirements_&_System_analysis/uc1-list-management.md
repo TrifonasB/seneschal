@@ -66,4 +66,7 @@
 ![Διάγραμμα δραστηριότητας - Δημιουργία λίστας](../Scope_and_definition/sequence-create-list.png)
 
 ### Διάγραμμα ακολουθίας - Έλεγχος ικανοποίησης λίστας
-![Διάγραμμα ακολουθίας -Έλεγχος ικανοποίησης λίστας](../Scope_and_definition/sequence-ShoppingListisActive.png)
+![Διάγραμμα ακολουθίας - Έλεγχος ικανοποίησης λίστας](../Scope_and_definition/sequence-ShoppingListisActive.png)
+
+### Διάγραμμα ακολουθίας - Αφαίρεση αγορασμένης ποσότητας
+![Διάγραμμα ακολουθίας - Αφαίρεση αγορασμένης ποσότητας](../Scope_and_definition/sequence-removeBoughtQuantity.png)
