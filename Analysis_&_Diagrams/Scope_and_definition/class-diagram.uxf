@@ -29,7 +29,7 @@ fontsize=14
     <id>UMLClass</id>
     <coordinates>
       <x>342</x>
-      <y>108</y>
+      <y>126</y>
       <w>234</w>
       <h>108</h>
     </coordinates>
@@ -167,35 +167,9 @@ _#currentStoreId : int_
     <additional_attributes>10.0;10.0;90.0;60.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>567</x>
-      <y>153</y>
-      <w>180</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-m1=*
-m2=*
-included-in &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>648</x>
-      <y>81</y>
-      <w>27</w>
-      <h>108</h>
-    </coordinates>
-    <panel_attributes>lt=.
-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>531</x>
+      <x>567</x>
       <y>18</y>
       <w>252</w>
       <h>72</h>
@@ -207,32 +181,6 @@ included-in &gt;</panel_attributes>
 +isBought() : boolean
 +removeQuantity(quantity : Quantity)</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>441</x>
-      <y>207</y>
-      <w>90</w>
-      <h>189</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-m1=1..*  
-m2=*
-bought-in v</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>369</x>
-      <y>270</y>
-      <w>99</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=.
-</panel_attributes>
-    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -427,13 +375,16 @@ PIECES</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>270</x>
-      <y>144</y>
+      <y>162</y>
       <w>90</w>
-      <h>126</h>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-r1=-product</panel_attributes>
-    <additional_attributes>80.0;20.0;20.0;20.0;20.0;120.0</additional_attributes>
+r1=-product
+
+m1=1 
+m2=*</panel_attributes>
+    <additional_attributes>80.0;20.0;20.0;20.0;20.0;100.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -441,57 +392,41 @@ r1=-product</panel_attributes>
       <x>279</x>
       <y>324</y>
       <w>63</w>
-      <h>135</h>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-r1=-bpList</panel_attributes>
+r1=-bpList
+m1=1..*
+m2=1</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;130.0;50.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>774</x>
+      <x>810</x>
       <y>45</y>
-      <w>72</w>
+      <w>126</w>
       <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-r1=-spList</panel_attributes>
-    <additional_attributes>10.0;20.0;60.0;20.0;60.0;90.0</additional_attributes>
+r1=-spList
+m1=1..*
+m2=1</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0;110.0;90.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>450</x>
       <y>54</y>
-      <w>99</w>
-      <h>72</h>
+      <w>135</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-r1=-product</panel_attributes>
-    <additional_attributes>10.0;60.0;10.0;10.0;90.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>243</x>
-      <y>27</y>
-      <w>306</w>
-      <h>243</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;250.0;10.0;10.0;320.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>369</x>
-      <y>243</y>
-      <w>378</w>
-      <h>27</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;400.0;10.0</additional_attributes>
+r1=-product
+m1=1
+m2=*</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0;130.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
