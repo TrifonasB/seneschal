@@ -4,7 +4,7 @@ import com.main.seneschal.util.SimpleCalendar;
 
 import java.util.ArrayList;
 
-class ShoppingList {
+public class ShoppingList {
     private int id;
     private String name;
     private SimpleCalendar creationDate;
@@ -80,7 +80,6 @@ class ShoppingList {
         for (int i = 0; i < spList.size(); i++) {
             if (spList.get(i).getProduct().equals(product)) return i;
         }
-
         return -1;
     }
 
