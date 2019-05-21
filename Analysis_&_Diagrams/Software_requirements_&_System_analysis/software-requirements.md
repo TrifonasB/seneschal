@@ -60,7 +60,10 @@
 # Υποστηρικτικό υλικό
 
 ## Μοντέλο πεδίου
-![Domain model](../Scope_and_definition/class-diagram.png "Μοντέλο πεδίου / Διάγραμμα κλάσεων")
+![Domain model](../Scope_and_definition/domain-model.png "Μοντέλο πεδίου")
+
+## Διάγραμμα κλάσεων
+![Class diagram](../Scope_and_definition/class-diagram.png "Διάγραμμα κλάσεων")
 
 ## Διάγραμμα πακέτων - Αρχιτεκτονική
 ![Package diagram](../Scope_and_definition/package-diagram.png "Διάγραμμα πακέτων")
