@@ -15,11 +15,11 @@ public class ListProductTest {
 
     @Before
     public void setUp (){
-        product = new Product("kaseri bouras", ProductCategory.FOOD, ProductSubCategory.DAIRY);
+        product = new Product(1,"kaseri bouras", ProductCategory.FOOD, ProductSubCategory.DAIRY);
         quantity = new Quantity(BigDecimal.ONE, Unit.Kg);
         lp = new ListProduct(product, quantity);
 
-        product = new Product("Kaseri Bouras", ProductCategory.FOOD, ProductSubCategory.DAIRY);
+        product = new Product(2, "Kaseri Bouras - fetes", ProductCategory.FOOD, ProductSubCategory.DAIRY);
         lp.setProduct(product);
         quantity = new Quantity(BigDecimal.TEN, Unit.PIECES);
         lp.setQuantity(quantity);
@@ -27,7 +27,6 @@ public class ListProductTest {
 
     @After
     public void tearDown() {
-        product.currentProductId=0;
     }
 
     @Test

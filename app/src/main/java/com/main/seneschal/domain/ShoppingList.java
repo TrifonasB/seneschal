@@ -5,7 +5,6 @@ import com.main.seneschal.util.SimpleCalendar;
 import java.util.ArrayList;
 
 class ShoppingList {
-    protected static int currentListId=0;
     private int id;
     private String name;
     private SimpleCalendar creationDate;
@@ -13,11 +12,10 @@ class ShoppingList {
 
 
     public ShoppingList() {
-        id = currentListId++;
         spList = new ArrayList<>();
     }
 
-    public ShoppingList(String name, SimpleCalendar creationDate) {
+    public ShoppingList(int id,String name, SimpleCalendar creationDate) {
         this.name = name;
         this.creationDate = creationDate;
         spList = new ArrayList<>();
@@ -27,8 +25,7 @@ class ShoppingList {
         return id;
     }
 
-    public void setId(){
-        id = currentListId++;
+    public void setId(int id){ this.id = id;
     }
 
     public String getName() {
@@ -72,21 +69,19 @@ class ShoppingList {
     }
 
     public void removeBoughtQuantity(BoughtProduct bp){
-        int i=0;
         Product p = bp.getProduct();
-        while(!p.equals(spList.get(i).getProduct())){
-            i++;
-        }
-        spList.get(i).removeQuantity(bp.getQuantity());
+        int index = indexInList(p);
+
+        if(index!=-1)
+            spList.get(index).removeQuantity(bp.getQuantity());
     }
 
-    public boolean contains(Product product){
-        if(product!=null){
-            for(ListProduct lp : spList){
-                if(lp.getProduct().equals(product)) return true;
-            }
+    protected int indexInList (Product product) {
+        for (int i = 0; i < spList.size(); i++) {
+            if (spList.get(i).getProduct().equals(product)) return i;
         }
-        return false;
+
+        return -1;
     }
 
 

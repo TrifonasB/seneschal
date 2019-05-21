@@ -19,15 +19,13 @@ public class ShoppingListTest {
 
     @Before
     public void setUp() throws Exception {
-        shoppingList = new ShoppingList("lista", SystemDate.now());
-        pr1 = new Product("Kaseri Bouras", ProductCategory.FOOD, ProductSubCategory.DAIRY);
-        pr2 = new Product("2% FAGE Milk", ProductCategory.DRINK, ProductSubCategory.DAIRY);
+        shoppingList = new ShoppingList(1,"lista", SystemDate.now());
+        pr1 = new Product(1,"Kaseri Bouras", ProductCategory.FOOD, ProductSubCategory.DAIRY);
+        pr2 = new Product(2,"2% FAGE Milk", ProductCategory.DRINK, ProductSubCategory.DAIRY);
     }
 
     @After
     public void tearDown() throws Exception {
-        shoppingList.currentListId=0;
-        pr1.currentProductId=0;
     }
 
     @Test
@@ -44,10 +42,14 @@ public class ShoppingListTest {
         ListProduct lp2 = new ListProduct(pr2, new Quantity(new BigDecimal(1), Unit.L));
         shoppingList.addProduct(lp1);
         shoppingList.addProduct(lp2);
+
         Assert.assertEquals(shoppingList.getSpList().size(), 2);
-        Assert.assertTrue(shoppingList.contains(pr1));
+        Assert.assertEquals(shoppingList.indexInList(pr1),0);
+        Assert.assertEquals(shoppingList.indexInList(pr2),1);
+
         shoppingList.removeProduct(lp1);
         Assert.assertEquals(shoppingList.getSpList().size(), 1);
+        Assert.assertEquals(shoppingList.indexInList(pr2),0);
 
     }
 

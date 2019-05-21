@@ -2,8 +2,6 @@ package com.main.seneschal.domain;
 
 
 public class Store {
-
-    protected static int currentStoreId = 0;
     private int id;
     private String name;
     private DaySchedule[] schedule;
@@ -12,8 +10,8 @@ public class Store {
     public Store() {
     }
 
-    public Store(String name, DaySchedule[] schedule, Address address) {
-        id = currentStoreId++;
+    public Store(int id,String name, DaySchedule[] schedule, Address address) {
+        this.id=id;
         this.name = name;
         schedule = new DaySchedule[7];
         this.address = address;
@@ -23,8 +21,8 @@ public class Store {
         return id;
     }
 
-    public void setId() {
-        id = currentStoreId++;
+    public void setId(int id) {
+        this.id=id;
     }
 
     public String getName() {

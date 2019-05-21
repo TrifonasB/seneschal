@@ -15,18 +15,16 @@ public class StoreTest {
 
         schedule = new DaySchedule[7];
         address = new Address();
-        store = new Store("Kivotos", schedule, address);
+        store = new Store(1,"Kivotos", schedule, address);
 
         address = new Address("Papaioannou", "23", "karnavalia");
         store.setAddress(address);
-        store.setId();
         store.setName("ola3euro");
         store.setSchedule(schedule);
     }
 
     @After
     public void tearDown (){
-        store.currentStoreId=0;
     }
 
     @Test

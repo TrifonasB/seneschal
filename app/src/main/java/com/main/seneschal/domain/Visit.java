@@ -9,8 +9,6 @@ import com.main.seneschal.util.SimpleCalendar;
 import java.util.ArrayList;
 
 public class Visit {
-
-    protected static int currentVisitId = 0;
     private int id;
     private SimpleCalendar visitDate;
     private Money total;
@@ -20,8 +18,8 @@ public class Visit {
     private PaymentMethod paymentMethod;
 
 
-    public Visit(SimpleCalendar visitDate, Store visitedStore, PaymentMethod paymentMethod) {
-        this.id = currentVisitId++;
+    public Visit(int id, SimpleCalendar visitDate, Store visitedStore, PaymentMethod paymentMethod) {
+        this.id=id;
         this.visitDate = visitDate;
         this.bpList = new ArrayList<>();
         this.visitLists = new ArrayList<>();
@@ -35,8 +33,8 @@ public class Visit {
         return id;
     }
 
-    public void setId() {
-        this.id = currentVisitId++;
+    public void setId(int id) {
+        this.id=id;
     }
 
     public SimpleCalendar getVisitDate() {

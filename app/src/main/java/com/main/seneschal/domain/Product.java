@@ -2,7 +2,6 @@ package com.main.seneschal.domain;
 
 
 public class Product {
-    protected static int currentProductId=0;
 
     private int id;
     private String name;
@@ -12,10 +11,8 @@ public class Product {
     public Product() {
     }
 
-    public Product(String name, ProductCategory category, ProductSubCategory subCategory) {
-        id = currentProductId;
-        currentProductId++;
-
+    public Product(int id, String name, ProductCategory category, ProductSubCategory subCategory) {
+        this.id = id;
         this.name = name;
         this.category = category;
         this.subCategory = subCategory;
@@ -25,9 +22,8 @@ public class Product {
         return id;
     }
 
-    public void setId() {
-        id = currentProductId;
-        currentProductId++;
+    public void setId(int id) {
+       this.id = id;
     }
 
     public String getName() {
