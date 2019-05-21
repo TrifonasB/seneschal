@@ -68,6 +68,17 @@
 ## Διάγραμμα πακέτων - Αρχιτεκτονική
 ![Package diagram](../Scope_and_definition/package-diagram.png "Διάγραμμα πακέτων")
 
+### Διάγραμμα ακολουθίας - Έλεγχος ικανοποίησης λίστας
+![Διάγραμμα ακολουθίας - Έλεγχος ικανοποίησης λίστας](../Scope_and_definition/sequence-ShoppingListisActive.png)
+
+### Διάγραμμα ακολουθίας - Αφαίρεση αγορασμένης ποσότητας
+![Διάγραμμα ακολουθίας - Αφαίρεση αγορασμένης ποσότητας](../Scope_and_definition/sequence-removeBoughtQuantity.png)
+
+
+### Διάγραμμα ακολουθίας - Έλεγχος διαθέσιμου υπολοίπου
+![Διάγραμμα ακολουθίας - Έλεγχος διαθέσιμου υπολοίπου](../Scope_and_definition/sequence-closeToBudget.png)
+
+
 
 ## Ελεγχοι JUnit
 ![JUnit-Domain](./Statistics/JUnit-DomainResults.png "Αποτελέσματα JUnit στο domain")
