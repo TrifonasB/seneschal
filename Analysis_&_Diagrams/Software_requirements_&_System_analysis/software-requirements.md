@@ -81,9 +81,7 @@
 ![Διάγραμμα ακολουθίας -Δημιουργία λίστας](../Scope_and_definition/sequence-create-list-MVP.png)
 
 ### Διάγραμμα ακολουθίας - Καταγραφή επίσκεψης με μοντέλο MVP
-![Διάγραμμα ακολουθίας -Καταγραφή επίσκεψης](../Scope_and_definition/sequence-store-visit-MVP_1.png)
-![Διάγραμμα ακολουθίας -Καταγραφή επίσκεψης](../Scope_and_definition/sequence-store-visit-MVP_2.png)
-
+![Διάγραμμα ακολουθίας -Καταγραφή επίσκεψης](../Scope_and_definition/sequence-store-visit-MVP.png)
 
 
 
