@@ -74,9 +74,18 @@
 ### Διάγραμμα ακολουθίας - Αφαίρεση αγορασμένης ποσότητας
 ![Διάγραμμα ακολουθίας - Αφαίρεση αγορασμένης ποσότητας](../Scope_and_definition/sequence-removeBoughtQuantity.png)
 
-
 ### Διάγραμμα ακολουθίας - Έλεγχος διαθέσιμου υπολοίπου
 ![Διάγραμμα ακολουθίας - Έλεγχος διαθέσιμου υπολοίπου](../Scope_and_definition/sequence-closeToBudget.png)
+
+### Διάγραμμα ακολουθίας - Δημιουργία λίστας με μοντέλο MVP
+![Διάγραμμα ακολουθίας -Δημιουργία λίστας](../Scope_and_definition/sequence-create-list-MVP.png)
+
+### Διάγραμμα ακολουθίας - Καταγραφή επίσκεψης με μοντέλο MVP
+![Διάγραμμα ακολουθίας -Καταγραφή επίσκεψης](../Scope_and_definition/sequence-store-visit-MVP_1.png)
+![Διάγραμμα ακολουθίας -Καταγραφή επίσκεψης](../Scope_and_definition/sequence-store-visit-MVP_2.png)
+
+
+
 
 
 
