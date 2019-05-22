@@ -10,8 +10,7 @@ public class Store {
     public Store() {
     }
 
-    public Store(int id,String name, DaySchedule[] schedule, Address address) {
-        this.id=id;
+    public Store(String name, Address address) {
         this.name = name;
         schedule = new DaySchedule[7];
         this.address = address;

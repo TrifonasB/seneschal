@@ -11,8 +11,7 @@ public class Product {
     public Product() {
     }
 
-    public Product(int id, String name, ProductCategory category, ProductSubCategory subCategory) {
-        this.id = id;
+    public Product(String name, ProductCategory category, ProductSubCategory subCategory) {
         this.name = name;
         this.category = category;
         this.subCategory = subCategory;

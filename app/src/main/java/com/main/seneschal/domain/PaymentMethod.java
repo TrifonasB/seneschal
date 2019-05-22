@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 public abstract class PaymentMethod {
 
     protected Money balance;
+    protected int id;
 
     public boolean isActive (){
         return balance.getAmount().compareTo(BigDecimal.ZERO) > 0;
@@ -24,5 +25,13 @@ public abstract class PaymentMethod {
 
     public void setBalance(Money balance) {
         this.balance = balance;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

@@ -21,7 +21,7 @@ public class BoughtProductTest {
     @Before
     public void setUp() throws Exception {
         boughtProduct = new BoughtProduct();
-        product = new Product(1,"2% FAGE Milk",ProductCategory.DRINK,ProductSubCategory.DAIRY);
+        product = new Product("2% FAGE Milk",ProductCategory.DRINK,ProductSubCategory.DAIRY);
         price = Money.euros(new BigDecimal(1.20));
         quantity = new Quantity(new BigDecimal(2), Unit.PIECES);
 

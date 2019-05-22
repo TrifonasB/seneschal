@@ -18,11 +18,10 @@ public class Visit {
     private PaymentMethod paymentMethod;
 
 
-    public Visit(int id, SimpleCalendar visitDate, Store visitedStore, PaymentMethod paymentMethod) {
-        this.id=id;
+    public Visit(SimpleCalendar visitDate, Store visitedStore, PaymentMethod paymentMethod, ArrayList<ShoppingList> visitLists) {
         this.visitDate = visitDate;
         this.bpList = new ArrayList<>();
-        this.visitLists = new ArrayList<>();
+        this.visitLists = visitLists;
         this.visitedStore = visitedStore;
         this.paymentMethod = paymentMethod;
 
@@ -112,9 +111,9 @@ public class Visit {
         total = total.plus(bpListProduct.getTotalPrice());
     }
 
-    public boolean closeToBudget(Money threshHold){
+    public boolean closeToBudget(Money threshold){
         Money expectedBalance = paymentMethod.checkBalance(total);
-        if(expectedBalance.getAmount().compareTo(threshHold.getAmount())<=0){
+        if(expectedBalance.getAmount().compareTo(threshold.getAmount())<=0){
             return true;
         }
         return false;

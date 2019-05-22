@@ -1,5 +1,6 @@
 package com.main.seneschal.domain;
 
+import com.main.seneschal.util.Money;
 import com.main.seneschal.util.SimpleCalendar;
 import com.main.seneschal.util.SystemDate;
 
@@ -11,10 +12,11 @@ public class Card extends PaymentMethod {
 
     public Card(){}
 
-    public Card(String cardNo, SimpleCalendar expires, CardType cardType) {
+    public Card(String cardNo, SimpleCalendar expires, CardType cardType, Money balance) {
         this.cardNo = cardNo;
         this.expires = expires;
         this.cardType = cardType;
+        this.balance = balance;
     }
 
     public String getCardNo() {
@@ -40,6 +42,8 @@ public class Card extends PaymentMethod {
     public void setCardType(CardType cardType) {
         this.cardType = cardType;
     }
+
+
 
     public boolean isActive(){
         boolean activeBalance = super.isActive();

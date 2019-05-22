@@ -13,15 +13,14 @@ import java.util.ArrayList;
 
 public class ShoppingListTest {
 
-    private ArrayList<ListProduct> spList;
     private ShoppingList shoppingList;
     private Product pr1, pr2;
 
     @Before
     public void setUp() throws Exception {
-        shoppingList = new ShoppingList(1,"lista", SystemDate.now());
-        pr1 = new Product(1,"Kaseri Bouras", ProductCategory.FOOD, ProductSubCategory.DAIRY);
-        pr2 = new Product(2,"2% FAGE Milk", ProductCategory.DRINK, ProductSubCategory.DAIRY);
+        shoppingList = new ShoppingList("lista", SystemDate.now(), new ArrayList<ListProduct>());
+        pr1 = new Product("Kaseri Bouras", ProductCategory.FOOD, ProductSubCategory.DAIRY);
+        pr2 = new Product("2% FAGE Milk", ProductCategory.DRINK, ProductSubCategory.DAIRY);
     }
 
     @After

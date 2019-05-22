@@ -15,10 +15,10 @@ public class ShoppingList {
         spList = new ArrayList<>();
     }
 
-    public ShoppingList(int id,String name, SimpleCalendar creationDate) {
+    public ShoppingList(String name, SimpleCalendar creationDate, ArrayList<ListProduct> spList) {
         this.name = name;
         this.creationDate = creationDate;
-        spList = new ArrayList<>();
+        this.spList = spList;
     }
 
     public int getId() {

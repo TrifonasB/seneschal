@@ -15,7 +15,7 @@ public class StoreTest {
 
         schedule = new DaySchedule[7];
         address = new Address();
-        store = new Store(1,"Kivotos", schedule, address);
+        store = new Store("Kivotos", address);
 
         address = new Address("Papaioannou", "23", "karnavalia");
         store.setAddress(address);
@@ -29,7 +29,7 @@ public class StoreTest {
 
     @Test
     public void getThemAll (){
-    Assert.assertEquals(store.getId(), 1);
+    Assert.assertEquals(store.getId(), 0);
     Assert.assertEquals(store.getAddress(), address);
     Assert.assertEquals(store.getName(), "ola3euro");
     Assert.assertEquals(store.getSchedule(), schedule);

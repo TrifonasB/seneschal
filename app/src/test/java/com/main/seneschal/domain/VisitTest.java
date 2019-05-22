@@ -18,7 +18,6 @@ public class VisitTest {
     private ShoppingList sLists;
     private SimpleCalendar visitDate;
     private ArrayList<BoughtProduct> bpList;
-    private ArrayList<ShoppingList> visitLists;
     private Store visitedStore;
     private Money total;
     private PaymentMethod paymentMethod;
@@ -26,8 +25,8 @@ public class VisitTest {
 
     @Before
     public void setUp() {
-        visit = new Visit(1,new SimpleCalendar(2019, 3, 23), new Store(), paymentMethod);
-        product = new Product(2,"Kaseri Bouras", ProductCategory.FOOD, ProductSubCategory.DAIRY);
+        visit = new Visit(new SimpleCalendar(2019, 3, 23), new Store(), paymentMethod, new ArrayList<ShoppingList>());
+        product = new Product("Kaseri Bouras", ProductCategory.FOOD, ProductSubCategory.DAIRY);
         sLists = new ShoppingList();
         ListProduct lp = new ListProduct(product, new Quantity(new BigDecimal(3), Unit.L));
         sLists.addProduct(lp);
@@ -54,16 +53,12 @@ public class VisitTest {
         visitedStore = new Store();
         visit.setVisitedStore(visitedStore);
 
-        visitLists = new ArrayList<>();
-        visit.setVisitLists(visitLists);
-
         Assert.assertEquals(visit.getBpList(), bpList);
-        Assert.assertEquals(visit.getId(), 1);
+        Assert.assertEquals(visit.getId(), 0);
         Assert.assertEquals(visit.getPaymentMethod(), paymentMethod);
         Assert.assertEquals(visit.getTotal(), Money.euros(2));
         Assert.assertEquals(visit.getVisitDate(), SystemDate.now());
         Assert.assertEquals(visit.getVisitedStore(), visitedStore);
-        Assert.assertEquals(visit.getVisitLists(), visitLists);
     }
 
     @Test
@@ -94,7 +89,7 @@ public class VisitTest {
         Assert.assertEquals(visit.getBpList().size(), 1);
         Assert.assertEquals(visit.getTotal(), Money.euros(900));
 
-        product = new Product(1,"2% FAGE Milk", ProductCategory.DRINK, ProductSubCategory.DAIRY);
+        product = new Product("2% FAGE Milk", ProductCategory.DRINK, ProductSubCategory.DAIRY);
         BoughtProduct bp2 = new BoughtProduct(product, new Quantity(BigDecimal.ONE, Unit.PIECES), Money.euros(5));
         visit.addProduct(bp2);
         Assert.assertEquals(visit.getTotal(), Money.euros(905));
