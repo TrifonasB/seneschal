@@ -9,8 +9,6 @@ public class ListProduct {
     private Product product;
     private Quantity quantity;
 
-    public ListProduct() {}
-
     public ListProduct(Product product, Quantity quantity) {
         this.product = product;
         this.quantity = quantity;

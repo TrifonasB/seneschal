@@ -76,7 +76,7 @@ public class ShoppingList {
             spList.get(index).removeQuantity(bp.getQuantity());
     }
 
-    protected int indexInList (Product product) {
+    public int indexInList (Product product) {
         for (int i = 0; i < spList.size(); i++) {
             if (spList.get(i).getProduct().equals(product)) return i;
         }
