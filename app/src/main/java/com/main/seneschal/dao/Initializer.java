@@ -47,7 +47,7 @@ public class Initializer {
         }
     }
 
-    protected void prepareData(){
+    public void prepareData(){
         eraseData();
 
         PaymentMethodDAO paymentMethodDAO = new PaymentMethodDAO();
