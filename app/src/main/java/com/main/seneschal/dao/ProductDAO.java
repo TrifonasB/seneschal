@@ -34,4 +34,6 @@ public class ProductDAO {
 
         return null;
     }
+
+    public void reset(){ nextProductID = 0;}
 }

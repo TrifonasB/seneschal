@@ -34,4 +34,6 @@ public class PaymentMethodDAO {
 
         return null;
     }
+
+    public void reset(){ nextPaymentMethodID = 0;}
 }

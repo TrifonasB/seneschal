@@ -26,4 +26,6 @@ public class VisitDAO {
         return result;
     }
 
+    public void reset(){ nextVisitID = 0;}
+
 }

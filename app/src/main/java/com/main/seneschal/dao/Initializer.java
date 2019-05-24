@@ -45,6 +45,12 @@ public class Initializer {
         for(Visit visit : getVisitDAO().findAll()){
             getVisitDAO().delete(visit);
         }
+
+        getProductDAO().reset();
+        getPaymentMethodDAO().reset();
+        getVisitDAO().reset();
+        getStoreDAO().reset();
+        getShoppingListDAO().reset();
     }
 
     public void prepareData(){
@@ -52,7 +58,7 @@ public class Initializer {
 
         PaymentMethodDAO paymentMethodDAO = new PaymentMethodDAO();
         paymentMethodDAO.save(new Wallet(Money.euros(100)));
-        paymentMethodDAO.save(new Card("3250992199340248",new SimpleCalendar(2020,2,1), CardType.CREDIT, Money.euros(0)));
+        paymentMethodDAO.save(new Card("3250992199340248",new SimpleCalendar(2020,2,1), CardType.CREDIT, Money.euros(100)));
         paymentMethodDAO.save(new Card("4756332100095460",new SimpleCalendar(2016, 10,1),CardType.DEBIT,Money.euros(50)));
 
 
