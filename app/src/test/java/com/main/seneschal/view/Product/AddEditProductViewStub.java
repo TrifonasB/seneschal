@@ -2,8 +2,6 @@ package com.main.seneschal.view.Product;
 
 import com.main.seneschal.domain.ProductCategory;
 import com.main.seneschal.domain.ProductSubCategory;
-import com.main.seneschal.view.Product.AddEditProductPresenter;
-import com.main.seneschal.view.Product.AddEditProductView;
 
 public class AddEditProductViewStub implements AddEditProductView {
     private String name,errorTitle,errorMessage,finishMessage,attachedProductName;

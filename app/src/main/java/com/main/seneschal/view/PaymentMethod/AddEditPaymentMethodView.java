@@ -1,8 +1,6 @@
 package com.main.seneschal.view.PaymentMethod;
 
 import com.main.seneschal.domain.CardType;
-import com.main.seneschal.domain.PaymentMethod;
-import com.main.seneschal.util.Money;
 import com.main.seneschal.util.SimpleCalendar;
 
 public interface AddEditPaymentMethodView {
