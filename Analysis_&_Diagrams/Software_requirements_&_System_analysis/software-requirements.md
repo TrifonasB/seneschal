@@ -60,4 +60,34 @@
 # Υποστηρικτικό υλικό
 
 ## Μοντέλο πεδίου
-![Domain model](../Scope_and_definition/class-diagram.png "Μοντέλο πεδίου / Διάγραμμα κλάσεων")
+![Domain model](../Scope_and_definition/domain-model.png "Μοντέλο πεδίου")
+
+## Διάγραμμα κλάσεων
+![Class diagram](../Scope_and_definition/class-diagram.png "Διάγραμμα κλάσεων")
+
+## Διάγραμμα πακέτων - Αρχιτεκτονική
+![Package diagram](../Scope_and_definition/package-diagram.png "Διάγραμμα πακέτων")
+
+### Διάγραμμα ακολουθίας - Έλεγχος ικανοποίησης λίστας
+![Διάγραμμα ακολουθίας - Έλεγχος ικανοποίησης λίστας](../Scope_and_definition/sequence-ShoppingListisActive.png)
+
+### Διάγραμμα ακολουθίας - Αφαίρεση αγορασμένης ποσότητας
+![Διάγραμμα ακολουθίας - Αφαίρεση αγορασμένης ποσότητας](../Scope_and_definition/sequence-removeBoughtQuantity.png)
+
+### Διάγραμμα ακολουθίας - Έλεγχος διαθέσιμου υπολοίπου
+![Διάγραμμα ακολουθίας - Έλεγχος διαθέσιμου υπολοίπου](../Scope_and_definition/sequence-closeToBudget.png)
+
+### Διάγραμμα ακολουθίας - Δημιουργία λίστας με μοντέλο MVP
+![Διάγραμμα ακολουθίας -Δημιουργία λίστας](../Scope_and_definition/sequence-create-list-MVP.png)
+
+### Διάγραμμα ακολουθίας - Καταγραφή επίσκεψης με μοντέλο MVP
+![Διάγραμμα ακολουθίας -Καταγραφή επίσκεψης](../Scope_and_definition/sequence-store-visit-MVP.png)
+
+
+
+
+
+## Ελεγχοι JUnit
+![JUnit-Domain](./Statistics/JUnit-DomainResults.png "Αποτελέσματα JUnit στο domain")
+
+![JUnit-SourceCode](./Statistics/JUnit-SourceCodeResults.png "Αποτελέσματα για όλες τις κλάσεις του χαμηλότερου επιπέδου")

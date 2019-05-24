@@ -48,4 +48,5 @@
 ![Διάγραμμα δραστηριότητας - Καταγραφή Επίσκεψης](../Scope_and_definition/activity-store-visit.png)
 
 ### Διάγραμμα ακολουθίας - Καταγραφή Επίσκεψης
-![Διάγραμμα δραστηριότητας - Καταγραφή Επίσκεψης](../Scope_and_definition/sequence-store-visit.png)
+![Διάγραμμα ακολουθίας - Καταγραφή Επίσκεψης](../Scope_and_definition/sequence-store-visit.png)
+
