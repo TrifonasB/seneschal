@@ -1,4 +1,4 @@
-package com.main.seneschal.view.Product.AddEditProduct;
+package com.main.seneschal.view.Product;
 
 import com.main.seneschal.dao.ProductDAO;
 import com.main.seneschal.domain.Product;
@@ -36,11 +36,15 @@ public class AddEditProductPresenter {
             view.showErrorMessage("Σφάλμα!", "Εισάγετε το όνομα του προϊόντος.");
         else{
             if(attachedProduct == null){
-                Product productTmp = new Product(name,category,subCategory);
-                products.save(productTmp);
+                if(products.find(name)!= null){
+                    view.showErrorMessage("Σφάλμα!", "Βρέθηκε προϊόν με το ίδιο όνομα. Εισάγετε ένα έγκυρο όνομα προϊόντος.");
+                }
+                else {
+                    Product productTmp = new Product(name, category, subCategory);
 
-                view.successfullyFinishActivity("Επιτυχής προσθήκη του προϊόντος '" +name+ "'!");
-
+                    products.save(productTmp);
+                    view.successfullyFinishActivity("Επιτυχής προσθήκη του προϊόντος '" + name + "'!");
+                }
             }else{
                 String oldName = attachedProduct.getName();
 
@@ -52,6 +56,14 @@ public class AddEditProductPresenter {
                 view.successfullyFinishActivity("Επιτυχής τροποποίηση του προϊόντος '" +oldName+ "'!");
             }
         }
+    }
+
+    public void onDeleteProduct(){
+        String name = view.getName();
+
+        products.delete(attachedProduct);
+
+        view.successfullyFinishActivity("Επιτυχής διαγραφή του προϊόντος '" +name+ "'!");
     }
 
     public List<Product> getProducts(){

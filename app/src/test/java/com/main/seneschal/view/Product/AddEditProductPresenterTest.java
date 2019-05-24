@@ -1,23 +1,21 @@
-package com.main.seneschal.view.Product.AddEditProduct;
+package com.main.seneschal.view.Product;
 
 import com.main.seneschal.dao.Initializer;
 import com.main.seneschal.dao.ProductDAO;
 import com.main.seneschal.domain.ProductCategory;
 import com.main.seneschal.domain.ProductSubCategory;
-import com.main.seneschal.view.Product.AddEditProductViewStub;
 
-import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class AddEditProductPresenterTest {
 
     private Initializer dataHelper;
     private AddEditProductPresenter presenter;
     private AddEditProductViewStub view;
+
+    private static final int INITIAL_PRODUCT_COUNT = 9;
 
     @Before
     public void setUp() throws Exception {
@@ -64,6 +62,16 @@ public class AddEditProductPresenterTest {
         presenter.onSaveProduct();
         Assert.assertEquals(view.getFinishMessage(),"Επιτυχής τροποποίηση του προϊόντος 'Melissa no.5'!");
         Assert.assertEquals(prodID, dataHelper.getProductDAO().find("Melissa no.6").getId());
+    }
+
+    @Test
+    public void testDeletion(){
+        view.setAttachedProductName("Melissa no.5");
+        presenter = new AddEditProductPresenter(view, dataHelper.getProductDAO());
+
+        presenter.onDeleteProduct();
+        Assert.assertEquals(view.getFinishMessage(), "Επιτυχής διαγραφή του προϊόντος 'Melissa no.5'!");
+        Assert.assertEquals(presenter.getProducts().size(), INITIAL_PRODUCT_COUNT-1);
     }
 
 

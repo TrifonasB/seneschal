@@ -2,8 +2,8 @@ package com.main.seneschal.view.Product;
 
 import com.main.seneschal.domain.ProductCategory;
 import com.main.seneschal.domain.ProductSubCategory;
-import com.main.seneschal.view.Product.AddEditProduct.AddEditProductPresenter;
-import com.main.seneschal.view.Product.AddEditProduct.AddEditProductView;
+import com.main.seneschal.view.Product.AddEditProductPresenter;
+import com.main.seneschal.view.Product.AddEditProductView;
 
 public class AddEditProductViewStub implements AddEditProductView {
     private String name,errorTitle,errorMessage,finishMessage,attachedProductName;
@@ -37,24 +37,12 @@ public void setAttachedProductName (String value) {attachedProductName = value;}
         return errorTitle;
     }
 
-    public void setErrorTitle(String errorTitle) {
-        this.errorTitle = errorTitle;
-    }
-
     public String getErrorMessage() {
         return errorMessage;
     }
 
-    public void setErrorMessage(String errorMessage) {
-        this.errorMessage = errorMessage;
-    }
-
     public String getFinishMessage() {
         return finishMessage;
-    }
-
-    public void setFinishMessage(String finishMessage) {
-        this.finishMessage = finishMessage;
     }
 
     public String getAttachedProductName() {

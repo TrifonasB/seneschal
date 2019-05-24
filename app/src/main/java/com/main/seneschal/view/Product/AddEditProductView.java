@@ -1,4 +1,4 @@
-package com.main.seneschal.view.Product.AddEditProduct;
+package com.main.seneschal.view.Product;
 
 import com.main.seneschal.domain.ProductCategory;
 import com.main.seneschal.domain.ProductSubCategory;
