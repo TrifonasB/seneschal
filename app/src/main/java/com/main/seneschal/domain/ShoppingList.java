@@ -52,7 +52,6 @@ public class ShoppingList {
         this.spList = spList;
     }
 
-
     public boolean isActive(){
         for (ListProduct lp : spList) {
             if (!lp.isBought()) return true;

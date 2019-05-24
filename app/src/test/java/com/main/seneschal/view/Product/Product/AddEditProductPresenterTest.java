@@ -1,9 +1,11 @@
-package com.main.seneschal.view.Product;
+package com.main.seneschal.view.Product.Product;
 
 import com.main.seneschal.dao.Initializer;
 import com.main.seneschal.dao.ProductDAO;
 import com.main.seneschal.domain.ProductCategory;
 import com.main.seneschal.domain.ProductSubCategory;
+import com.main.seneschal.view.Product.AddEditProductPresenter;
+import com.main.seneschal.view.Product.AddEditProductView;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -26,7 +28,7 @@ public class AddEditProductPresenterTest {
 
     @Test
     public void testAddNew(){
-        presenter = new AddEditProductPresenter(view,new ProductDAO());
+        presenter = new AddEditProductPresenter(view, new ProductDAO());
 
         presenter.onSaveProduct();
         Assert.assertEquals(view.getErrorTitle(),"Σφάλμα!");

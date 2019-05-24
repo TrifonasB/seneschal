@@ -11,7 +11,6 @@ public interface AddEditProductView {
 
     String getAttachedProductName();
 
-
     void setName(String value);
 
     void setCategory(ProductCategory value);
