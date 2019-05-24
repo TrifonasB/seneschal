@@ -4,6 +4,7 @@ import com.main.seneschal.domain.Address;
 import com.main.seneschal.domain.BoughtProduct;
 import com.main.seneschal.domain.Card;
 import com.main.seneschal.domain.CardType;
+import com.main.seneschal.domain.DaySchedule;
 import com.main.seneschal.domain.ListProduct;
 import com.main.seneschal.domain.PaymentMethod;
 import com.main.seneschal.domain.Product;
@@ -110,8 +111,8 @@ public class Initializer {
 
 
         StoreDAO storeDAO = new StoreDAO();
-        storeDAO.save(new Store("Kivotos", new Address("Papaioannou", "23", "karnavalia")));
-        storeDAO.save(new Store("AB Vasilopoulos", new Address ("Perikleous", "10", "Peristeri")));
+        storeDAO.save(new Store("Kivotos", new DaySchedule[7],new Address("Papaioannou", "23", "karnavalia")));
+        storeDAO.save(new Store("AB Vasilopoulos", new DaySchedule[7], new Address ("Perikleous", "10", "Peristeri")));
 
 
         VisitDAO visitDAO = new VisitDAO();

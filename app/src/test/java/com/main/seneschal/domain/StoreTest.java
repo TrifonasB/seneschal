@@ -15,7 +15,7 @@ public class StoreTest {
 
         schedule = new DaySchedule[7];
         address = new Address();
-        store = new Store("Kivotos", address);
+        store = new Store("Kivotos", schedule, address);
 
         address = new Address("Papaioannou", "23", "karnavalia");
         store.setAddress(address);

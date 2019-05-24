@@ -10,9 +10,9 @@ public class Store {
     public Store() {
     }
 
-    public Store(String name, Address address) {
+    public Store(String name, DaySchedule[] schedule, Address address) {
         this.name = name;
-        schedule = new DaySchedule[7];
+        this.schedule = schedule;
         this.address = address;
     }
 

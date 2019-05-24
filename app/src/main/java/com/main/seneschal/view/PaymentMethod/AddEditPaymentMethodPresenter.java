@@ -51,8 +51,8 @@ public class AddEditPaymentMethodPresenter {
             view.showErrorMessage("Σφάλμα!", "Συμπληρώστε ένα θετικό υπόλοιπο ώστε η κάρτα να είναι έγκυρη.");
         }else{
             if(attachedPaymentMethod == null){
-                Card card = new Card(cardNo,expires,cardType,balance);
-                paymentMethods.save(card);
+                Card cardTmp = new Card(cardNo,expires,cardType,balance);
+                paymentMethods.save(cardTmp);
 
                 view.successfullyFinishActivity("Επιτυχής προσθήκη της κάρτας με αριθμό " + cardNo + "!");
             }else{
