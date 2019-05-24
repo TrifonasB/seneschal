@@ -38,6 +38,8 @@ public class ShoppingListDAO {
         return null;
     }
 
+    public void reset(){ nextListID = 0;}
+
     /*
     public List<ListProduct> findAllProductsFromList(int id){
         ArrayList<ListProduct> result = new ArrayList<>();

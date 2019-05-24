@@ -34,4 +34,6 @@ public class StoreDAO {
 
         return null;
     }
+
+    public void reset(){ nextStoreID = 0;}
 }

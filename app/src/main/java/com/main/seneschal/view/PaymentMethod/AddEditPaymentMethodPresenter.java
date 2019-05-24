@@ -9,6 +9,7 @@ import com.main.seneschal.util.SimpleCalendar;
 import com.main.seneschal.util.SystemDate;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 public class AddEditPaymentMethodPresenter {
 
@@ -24,7 +25,7 @@ public class AddEditPaymentMethodPresenter {
         attachedPaymentMethod = attachedPaymentMethodID == null ? null : paymentMethods.find(attachedPaymentMethodID);
 
         if(attachedPaymentMethod!=null){
-            view.setBalance(attachedPaymentMethod.getBalance());
+            view.setBalance(attachedPaymentMethod.getBalance().getAmount().intValue());
             if(attachedPaymentMethod instanceof Card) {
                 view.setPaymentMethodType("Card");
                 view.setCardNo(((Card) attachedPaymentMethod).getCardNo());
@@ -37,17 +38,17 @@ public class AddEditPaymentMethodPresenter {
     }
 
     public void onSaveCard() {
-        Money balance = view.getBalance();
+        Money balance = Money.euros(view.getBalance());
         String cardNo = view.getCardNo();
         SimpleCalendar expires = view.getExpirationDate();
         CardType cardType = view.getCardType();
 
-        if (balance.getAmount().compareTo(BigDecimal.ZERO) <= 0) {
-            view.showErrorMessage("Σφάλμα!", "Συμπληρώστε ένα θετικό υπόλοιπο ώστε η κάρτα να είναι έγκυρη.");
-        } else if (cardNo.length() != 16) {
+        if (cardNo.length() != 16) {
             view.showErrorMessage("Σφάλμα!", "Συμπληρώστε ακριβώς 16 αριθμητικά ψηφία για τον αριθμό της κάρτας.");
         }else if (expires.before(SystemDate.now())){
             view.showErrorMessage("Σφάλμα!", "Συμπληρώστε μια μελλοντική ημερομηνία λήξης ώστε η κάρτα να είναι έγκυρη.");
+        }else if (balance.getAmount().compareTo(BigDecimal.ZERO) <= 0) {
+            view.showErrorMessage("Σφάλμα!", "Συμπληρώστε ένα θετικό υπόλοιπο ώστε η κάρτα να είναι έγκυρη.");
         }else{
             if(attachedPaymentMethod == null){
                 Card card = new Card(cardNo,expires,cardType,balance);
@@ -73,7 +74,7 @@ public class AddEditPaymentMethodPresenter {
     }
 
     public void onUpdateWalletBalance(){
-        Money balance = view.getBalance();
+        Money balance = Money.euros(view.getBalance());
 
         if (balance.getAmount().compareTo(BigDecimal.ZERO) <= 0) {
             view.showErrorMessage("Σφάλμα!", "Συμπληρώστε ένα θετικό υπόλοιπο για το πορτοφόλι.");
@@ -81,5 +82,9 @@ public class AddEditPaymentMethodPresenter {
             attachedPaymentMethod.setBalance(balance);
             view.successfullyFinishActivity("Επιτυχής ενημέρωση του πορτοφολιού.");
         }
+    }
+
+    public List<PaymentMethod> getPaymentMethods(){
+        return paymentMethods.findAll();
     }
 }

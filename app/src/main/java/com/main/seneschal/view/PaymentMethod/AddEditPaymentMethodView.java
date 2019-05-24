@@ -8,7 +8,7 @@ import com.main.seneschal.util.SimpleCalendar;
 public interface AddEditPaymentMethodView {
 
     String getPaymentMethodType();
-    Money getBalance();
+    int getBalance();
 
     String getCardNo();
     SimpleCalendar getExpirationDate();
@@ -18,7 +18,7 @@ public interface AddEditPaymentMethodView {
 
     void setPaymentMethodType(String value);
 
-    void setBalance(Money value);
+    void setBalance(int value);
 
     void setCardNo(String value);
 

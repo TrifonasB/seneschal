@@ -37,6 +37,11 @@ public class AddEditProductPresenterTest {
         Assert.assertEquals(view.getErrorTitle(),"Σφάλμα!");
         Assert.assertEquals(view.getErrorMessage(), "Εισάγετε το όνομα του προϊόντος.");
 
+        view.setName("Melissa no.5");
+        presenter.onSaveProduct();
+        Assert.assertEquals(view.getErrorTitle(),"Σφάλμα!");
+        Assert.assertEquals(view.getErrorMessage(),"Βρέθηκε προϊόν με το ίδιο όνομα. Εισάγετε ένα έγκυρο όνομα προϊόντος.");
+
 
         view.setName("Neo proion");
         view.setCategory(ProductCategory.FOOD);

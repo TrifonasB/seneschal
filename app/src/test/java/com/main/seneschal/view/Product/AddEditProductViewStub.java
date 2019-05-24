@@ -22,7 +22,7 @@ public class AddEditProductViewStub implements AddEditProductView {
         subCategory = null;
     }
 
-public void setAttachedProductName (String value) {attachedProductName = value;}
+    public void setAttachedProductName (String value) {attachedProductName = value;}
 
     @Override
     public String getName() {
