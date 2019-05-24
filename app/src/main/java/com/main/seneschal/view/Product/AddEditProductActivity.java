@@ -1,4 +1,4 @@
-package com.main.seneschal.view.Product.AddEditProduct;
+package com.main.seneschal.view.Product;
 
 import android.app.AlertDialog;
 import android.content.Intent;
