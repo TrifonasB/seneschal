@@ -56,22 +56,22 @@ public class AddEditShoppingListPresenterTest {
         view.setAttachedProductName("FOOD");
         presenter = new AddEditShoppingListPresenter(view, dataHelper.getShoppingListDAO());
         presenter.onSaveShoppingList();
-        Assert.assertEquals(view.getFinishMessage(), "Επιτυχής τροποποίηση της λίστας 'FOOD'!");
+        Assert.assertEquals(view.getFinishMessage(), "Επιτυχής τροποποίηση της λίστας 'Food'!");
 
         int listId = dataHelper.getShoppingListDAO().find("FOOD").getId();
         presenter = new AddEditShoppingListPresenter(view, dataHelper.getShoppingListDAO());
         view.setName("GROCERIES");
         presenter.onSaveShoppingList();
-        Assert.assertEquals(view.getFinishMessage(), "Επιτυχής τροποποίηση της λίστας 'FOOD'!");
+        Assert.assertEquals(view.getFinishMessage(), "Επιτυχής τροποποίηση της λίστας 'Food'!");
         Assert.assertEquals(listId, dataHelper.getShoppingListDAO().find("GROCERIES").getId());
     }
 
     @Test
     public void testDeletion() {
-        view.setAttachedProductName("GROCERIES");
+        view.setAttachedProductName("Food");
         presenter = new AddEditShoppingListPresenter(view, dataHelper.getShoppingListDAO());
         presenter.onDeleteShoppingList();
-        Assert.assertEquals(view.getFinishMessage(), "Επιτυχής διαγραφή της λίστας 'GROCERIES'!");
+        Assert.assertEquals(view.getFinishMessage(), "Επιτυχής διαγραφή της λίστας 'Food'!");
         Assert.assertEquals(presenter.getShoppingLists().size(), INITIAL_LIST_COUNT-1);
     }
 }
